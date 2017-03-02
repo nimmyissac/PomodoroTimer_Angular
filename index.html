@@ -1,0 +1,39 @@
+<html>
+ <head>
+ <link rel ="stylesheet" type="text/css" href ="style.css"/>
+ <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+ </head>
+ <body ng-app="PomodoroModule">
+
+   <div class="mainDiv" ng-controller="DisplayTime">
+     <div class="header">
+          <div class="header1"><span class="headerspan">Break Length</span></div>
+          <div class="header2"><span class="headerspan">Session Length<span></div>
+       </div>
+       <div class ="session_break_div">
+         
+         <div class="breakDiv">
+           <button class="btn" ng-click="increment('break')">+</button>
+           <span class="displayspan">{{break}}</span>
+           <button class="btn" ng-click="decrement('break')">-</button>
+         </div>
+
+         <div class="sessionDiv">
+           <button class="btn" ng-click="increment('session')">+</button>
+           <span class="displayspan">{{minutes}}</span>
+           <button class="btn" ng-click="decrement('session')">-</button>
+        </div>
+
+     </div>
+
+     <div class="timerDiv" ng-click="divOnClick()">
+       <span class="fillColor">
+         <div class="timerSpan">{{minutes}}{{displaySeconds}}</div>
+       </span>
+     </div>
+  </div>
+
+ <script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+ <script src="pomodoro.js"></script>
+ </body>
+</html>

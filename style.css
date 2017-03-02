@@ -1,0 +1,104 @@
+html, body {
+ height:100%;
+}
+
+.mainDiv {
+  
+  
+  background-color: #4D4D4D;
+  height:100%;
+  /* display: flex;*/
+  /*flex-wrap: wrap; /* optional. only if you want the items to wrap */
+  /*justify-content: center; /* for horizontal alignment */
+  /*align-items: center; /* for vertical alignment */
+}
+
+.header {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  height:5%;
+  top:25%;
+  position:relative;
+  background-color: red;
+  box-shadow: 0 0 5px 5px #363636;
+  font-family:Impact, Charcoal, sans-serif
+}
+.header1 {
+  width: 50%;
+  background-color: #A1A1A1 ;
+  /*text-align : center;*/
+  display: flex;
+  align-items: center;
+ justify-content: center;
+}
+.header2 {
+  width: 50%;
+  background-color: #A1A1A1;
+  /*text-align : center;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.session_break_div {
+  display: flex;
+  margin: 0 auto;
+  height: 5%;
+  width: 50%;
+  top:25%;
+  position:relative;
+  background-color: red;
+  box-shadow: 0 0 5px 5px #363636;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.breakDiv {
+  width: 50%;
+  background-color: #919191;
+  border: 5px ridge #4D4D4D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.displayspan {
+  height: 50%;
+  width:25%;
+  text-align: center;
+}
+.sessionDiv {
+  width: 50%;
+  background-color: #919191;
+  text-align: right;
+  border: 5px ridge #4D4D4D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  box-shadow: 2px 2px 5px black;
+  background-color: #E5E5E5;
+}
+
+.timerDiv {
+ background-color: #B8B8B8;
+ margin: 0 auto;
+ height:40%;
+ top:25%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ /*height: 100%;*/
+ width: 50%;
+ position: relative;
+ box-shadow: 0 0 5px 5px #363636;
+ 
+
+}
+.timerSpan {
+  font-size: 6em;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
