@@ -16,13 +16,14 @@ html, body {
 .header {
   display: flex;
   margin: 0 auto;
-  width: 50%;
-  height:5%;
+  width: 70%;
+  height:6%;
   top:25%;
   position:relative;
   background-color: red;
   box-shadow: 0 0 5px 5px #363636;
   font-family:Impact, Charcoal, sans-serif
+
 }
 .header1 {
   width: 50%;
@@ -40,12 +41,18 @@ html, body {
   align-items: center;
   justify-content: center;
 }
+.headerspan {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .session_break_div {
   display: flex;
   margin: 0 auto;
-  height: 5%;
-  width: 50%;
+  height: 10%;
+  width: 70%;
   top:25%;
   position:relative;
   background-color: red;
@@ -64,7 +71,9 @@ html, body {
 .displayspan {
   height: 50%;
   width:25%;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .sessionDiv {
   width: 50%;
@@ -90,7 +99,7 @@ html, body {
  align-items: center;
  justify-content: center;
  /*height: 100%;*/
- width: 50%;
+ width: 70%;
  position: relative;
  box-shadow: 0 0 5px 5px #363636;
  
